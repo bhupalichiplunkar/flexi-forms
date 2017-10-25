@@ -6,7 +6,7 @@ export default class Header extends Component{
     const {headerText, headerView} = styles
     return (
       <View style={headerView}>
-        <Text style={headerText} >Flexi Loans</Text>
+        <Text style={headerText} >flexiloans</Text>
       </View>
     )
   }
@@ -14,15 +14,17 @@ export default class Header extends Component{
 
 const styles = {
   headerView : {
-    height: 100,
+    height: 90,
     justifyContent : 'center',
     alignItems : 'center',
     alignContent: 'center',
     paddingTop : 10,
-    backgroundColor: '#0968A4'
+    backgroundColor : '#3F51B5'    
   },
   headerText: {
     color: '#fff',
+    fontWeight: '300',
+    letterSpacing : 1,
     fontSize : 30
   },
 }
